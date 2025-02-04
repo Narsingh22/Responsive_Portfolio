@@ -1,0 +1,15 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "license": "ISC",
+  "author": "Narsingh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o home/css --recursive"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
